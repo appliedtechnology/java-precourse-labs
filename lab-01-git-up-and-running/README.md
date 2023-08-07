@@ -2,21 +2,25 @@
 
 ## Info
 
-Ask a 100 software developers what you need to know as a developers and you'll get a 100 different answers, except for one thing, 99 of them will tell you to learn about Git.
+Ask 100 software developers what you need to know as a developer, and you'll get 100 different answers. Except for one thing: 99 of them will tell you to learn about Git.
 
-Git and versions control is universal nowadays. It's not hard, but can be slow and confusing when you are a beginner. Let's alleviate that!
+Git and version control are universal nowadays. It's not hard, but it can be slow and confusing when you're a beginner. Let's alleviate that by having you work with the tool!
 
 ## What you will be working on
 
-Today will be all about working with git. Is to just use the tool so that it mecomes more natural working with it. The lab instructions will be vage on purope, the goal is for you to look through documentation and resources in order to find out what the next step is.
+Today will be all about working with Git. The goal is to use the tool until it becomes more natural. The lab instructions will be vague on purpose. The aim is for you to sift through documentation and resources to find out what the next step is.
 
 ## A word of warning
 
-It's incredibly easy to have AI tell you what to do next if you get stuck. That defeats the purpose of this excersise. Asking AI for help is like learning a new language, using Google Translate instead of folowing the exersise seteps.
+It's incredibly easy to have AI tell you what to do next if you get stuck. That defeats the purpose of this exercise. Relying on AI for help is like learning a new language by using Google Translate instead of following the exercise steps.
 
-The learning is in the doing and if you do not take the time to things yourself, your long term learning will suffer.
+The learning is in the doing. If you don’t take the time to figure things out yourself, your long-term learning will suffer.
 
 ## Setup
+
+Make sure you have [Git](https://git-scm.com/) installed, together with [VS-Code](https://code.visualstudio.com/download).
+
+Throughout the lab, we will work in the terminal to run the Git commands.
 
 ## Resources
 
@@ -30,7 +34,7 @@ The learning is in the doing and if you do not take the time to things yourself,
 
 1. Make a new repo on GitHub.com and clone it to your own computer. If it is your first time doing this, you might have to [create an SSH-key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows) and [add it to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui)
 
-1. Open this cloed folder in VS-Code, create a new file named `news.md`, add a "Hello World" inside and commit that file with an appropriate commit message.
+1. In your now local repo, open in up on VS-Code. In the lab-01-git-up-and-running folder Create a new file named `news.md`, add a "Hello World" inside and commit that file with an appropriate commit message.
 
 1. Once you've committed the `news.md` file, push your commit to the remote repository on GitHub.
 
@@ -56,10 +60,10 @@ The learning is in the doing and if you do not take the time to things yourself,
 
 1. Switch to another branch or create a new one. Here, make some different changes and commit them.
 
-1. Now, do back to the prevoud branch (hint `git checkout -`) and restore your stashed files
+1. Now, go back to the previous branch (hint: git checkout -) and restore your stashed files.
 
 ## Conclusion
 
-Congratulations! You've just done some very common git work. From cloning a repository to making changes, committing them, working with branches, creating PRs, and using stash.
+Congratulations! You've just performed some very common Git tasks. From cloning a repository to making changes, committing them, working with branches, creating PRs, and using stash.
 
 Remember, the more you practice, the more comfortable you'll become. And, just like any other skill, consistency is key. So, keep "gitting" at it!
