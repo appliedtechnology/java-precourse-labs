@@ -24,9 +24,9 @@ Throughout the lab, we will work in the terminal to run the Git commands.
 
 ## Resources
 
-[Git It? How to use Git and Github](https://www.youtube.com/watch?v=HkdAHXoRtos)
-[Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-[Best practices for using Git](https://deepsource.com/blog/git-best-practices)
+- [Git It? How to use Git and Github](https://www.youtube.com/watch?v=HkdAHXoRtos)
+- [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Best practices for using Git](https://deepsource.com/blog/git-best-practices)
 
 ## Lab instructions
 
