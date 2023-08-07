@@ -18,9 +18,11 @@ The learning is in the doing and if you do not take the time to things yourself,
 
 ## Setup
 
-Make sure you have [Git](https://git-scm.com/) installed, together with [VS-Code](https://code.visualstudio.com/download). You also need a [GitHub](https://github.com/) account. This account will be used through out the boot-camp, so if you do not already have one, create one!
+## Resources
 
-Through out the lab, we will work in the termial to run the git commands.
+[Git It? How to use Git and Github](https://www.youtube.com/watch?v=HkdAHXoRtos)
+[Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+[Best practices for using Git](https://deepsource.com/blog/git-best-practices)
 
 ## Lab instructions
 
