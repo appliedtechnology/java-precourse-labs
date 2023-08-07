@@ -14,7 +14,7 @@ Today will be all about working with Git. The goal is to use the tool until it b
 
 It's incredibly easy to have AI tell you what to do next if you get stuck. That defeats the purpose of this exercise. Relying on AI for help is like learning a new language by using Google Translate instead of following the exercise steps.
 
-The learning is in the doing. If you don’t take the time to figure things out yourself, your long-term learning will suffer.
+The learning is in the doing. If you don’t take the time to figure things out yourself, your long-term learning will suffer. **IF** you do end up completely stuck, ask in Slack or Dircord!
 
 ## Setup
 
