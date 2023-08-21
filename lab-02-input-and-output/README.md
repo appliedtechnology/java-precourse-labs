@@ -30,13 +30,17 @@ Ensure you have the following tools installed:
 
 The end goal of this lab is to be able to run the following commands
 ```bash
-java -cp <jar-file> <class-path> 1 2 add
+java -cp <jar-file> <class-path> <arguments>
+> <result>
+
+# Examples
+java -cp .target/my-compiled-file.jar se.saltcode.App 1 2 add
 > 3
-java -cp <jar-file> <class-path> 9 2 multiply
+java -cp .target/my-compiled-file.jar se.saltcode.App 9 2 multiply
 > 18
-java -cp <jar-file> <class-path> 3 2 subtract
+java -cp .target/my-compiled-file.jar se.saltcode.App 3 2 subtract
 > 1
-java -cp <jar-file> <class-path> 10 2 divide
+java -cp .target/my-compiled-file.jar se.saltcode.App 10 2 divide
 > 5
 ```
 
@@ -45,8 +49,8 @@ Goof luck!
 ### Creating our Maven project
 
 1. In your terminal, navigate to your preferred directory and create a new Maven project via the CLI command:  
-`mvn archetype:generate`  
-*ps. you will need to give it some additional arguments*
+`mvn archetype:generate DarchetypeArtifactId=maven-archetype-quickstart`  
+*ps. you will need to give it some additional arguments, look at the links above ;-)*  
 
 1. Navigate into the new project directory, add the .gitignore file from this repo [.gitignore](.gitignore) and then make the project into a new `git` repo via the command `git init`
 
@@ -54,19 +58,28 @@ Goof luck!
 
 ### Creating a CLI Calculator
 
-*Tip! Remember to commit small and often as you go! Building up good git routines*
+*Tip! Remember to commit small and often as you go! Building up good git routines*  
+If you are getting errors from Maven that your current version of Java is not suppported, you can change it by adding the following:
+```xml
+<properties>
+  <maven.compiler.source>20</maven.compiler.source>
+  <maven.compiler.target>20</maven.compiler.target>
+</properties>
+```
+
+#### Let's get started:
 
 1. Create a new Class named `Calculator` in the `src/main/java/<your>/<group>` directory.
 
 1. In this new class, implement a few basic arithmetic operations for addition, subtraction, multiplication, and division. As [static methods](https://www.geeksforgeeks.org/static-method-in-java-with-examples/)
 
-1. Once these methods are in place, it's time to parse user arguments. In the command:  
+1. Once these methods are in place, it's time to parse user arguments. To see how, we can look at the command we are going to run later:  
 `java -cp <jar-file> <class-path> 10 2 divide`  
-The `10`, `2` and `divide` will be available as Strings in the `String[] args` array inside the main class. Use these to select the correct method, use the correct parameters and print the result.
+The `10`, `2` and `divide` WILL be available as Strings in the `String[] args` array inside the main class. Use these arguments to select the correct method, use the correct parameters and print the result.
 
 1. When all other things are in place, it's time to compile. Use the command `mvn package` to create your java application.
 
-1. And now, finally, we should now have a `.jar` file available and be able to run the application with the `java -cp` command!
+1. And now, finally, we should now have a `.jar` file available. Target it and run the application with the `java -cp` command from before!
 
 ## Conclusion
 
