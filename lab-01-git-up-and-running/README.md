@@ -34,7 +34,7 @@ Throughout the lab, we will work in the terminal to run the Git commands.
 
 1. Make a new repo on GitHub.com and clone it to your own computer. If it is your first time doing this, you might have to [create an SSH-key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows) and [add it to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui)
 
-1. In your now local repo, open in up on VS-Code. In the lab-01-git-up-and-running folder Create a new file named `news.md`, add a "Hello World" inside and commit that file with an appropriate commit message.
+1. In your now local repo, open in up on VS-Code. From here, create a new file named `news.md`, add a "Hello World" inside and commit that file with an appropriate commit message.
 
 1. Once you've committed the `news.md` file, push your commit to the remote repository on GitHub.
 
